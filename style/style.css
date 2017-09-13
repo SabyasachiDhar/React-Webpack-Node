@@ -1,0 +1,117 @@
+.homeWrapper {
+  min-height: 200px;
+}
+.loginHeader{
+    background-color: #2f5596;
+    clear: left;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+.loginHeader h2{
+    margin: 0px;
+}
+
+.wrapperLogin {
+    margin: 80px 0;
+}
+
+/*Login*/
+.contentWrap {
+  margin-bottom: 20px;
+}
+
+.wrapHead {
+  padding: 15px 0; color: #FFF; background-color:#2f5596 ; clear: left; text-align: center;
+}
+.wrapHead h2 {
+  margin: 0px;
+}
+
+/* Nvigation */
+.navWrap .navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0px;
+    border-top: 2px solid #2f5596;
+}
+.navWrap .navbar-default {
+    background-color: #f1f1f1;
+}
+
+
+/*Banner*/
+
+.iconStyle {
+    display:block !important; margin:0px auto; margin-bottom:5px;
+}
+
+.bannerWrapper {
+  background: #2f5596 url("../images/banner.jpg") no-repeat center top;
+  /*background: #2f5596;*/
+  background-size: content;
+  height: 328px;
+  color: #CCC;
+}
+
+.bannerWrapper .container {
+  position: relative;
+}
+.btn-discover, .btn-analyze, .btn-design {
+  position: absolute;
+  width: 120px; height: 120px; border: 7px solid #1f4f73; 
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #FFF;
+  color: #000;
+  transition: all ease 0.6s;
+  text-align: center;
+  text-decoration: none;
+  padding-top:15px;
+}
+.btn-discover i, .btn-analyze i, .btn-design i {
+  color:#6d9ac3;
+  display: block;
+}
+.btn-discover {
+  top: 20px;
+  right:20%;
+}
+.btn-analyze {
+  top: 125px;
+  right:27%;
+}
+.btn-design {
+  top: 125px;
+  right:13%;
+}
+.btn-discover:hover, .btn-analyze:hover, .btn-design:hover,
+.btn-discover:focus, .btn-analyze:focus, .btn-design:hover,
+.btn-discover:active, .btn-analyze:active, .btn-design:active {
+  background: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+}
+
+/*Upload Form*/
+.uploadFiles {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #CCC;
+}
+
+/*Footer*/
+.footerWrapper {
+  background: #000;
+  color: #FFF;
+  padding: 12px 0;
+}
+
+.infoHeadTop {
+  text-align: center;
+  margin: 0px;
+  padding: 12px 0;
+  background: #f4b184;
+  text-transform: uppercase;
+}
